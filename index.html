@@ -1,0 +1,51 @@
+<head>
+    <style>
+        #lblFPS {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 40px;
+            padding: 5px 5px;
+            background: gray;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            font-family: arial;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body style="margin: 0">
+<canvas id="game-surface" width="500" height="500" style="width: 100%; height: 100%;"></canvas>
+<span id="lblFPS">0</span>
+<script src="entities/Entity.js"></script>
+<script src="entities/Camera.js"></script>
+<script src="entities/Light.js"></script>
+<script src="entities/ModelTexture.js"></script>
+
+<script src="meshes/Tree.js"></script>
+<script src="meshes/House.js"></script>
+
+<script src="models/CubeModel.js"></script>
+<script src="models/RawModel.js"></script>
+<script src="models/TexturedModel.js"></script>
+<script src="models/TorchModel.js"></script>
+
+<script src="renderEngine/DisplayManager.js"></script>
+<script src="renderEngine/Loader.js"></script>
+<script src="renderEngine/EntityRenderer.js"></script>
+
+<script src="shaders/ShaderProgram.js"></script>
+<script src="shaders/StaticShader.js"></script>
+
+<script src="toolbox/Maths.js"></script>
+<script src="toolbox/Vector3f.js"></script>
+<script src="toolbox/EntitySet.js"></script>
+
+<script src="common/obj-parser.js"></script>
+<script src="common/initShaders2.js"></script>
+<script src="common/webgl-debug.js"></script>
+<script src="common/MV.js"></script>
+<script src="common/functions.js"></script>
+<script src="app.js"></script>
+</body>
